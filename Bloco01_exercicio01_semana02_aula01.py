@@ -1,3 +1,12 @@
+'''
+Conversão de graus Celsius para Fahrenheit – Crie um programa que converta graus
+Celsius em Fahrenheit.
+O programa deve solicitar ao usuário que insira uma temperatura em graus Celsius e, em
+seguida, exiba a temperatura convertida em Fahrenheit. Após construir esse programa,
+modifique-o para que converta graus Fahrenheit em graus Celsius.
+
+'''
+
 def celsius_para_fahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
